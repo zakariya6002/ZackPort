@@ -10,7 +10,6 @@ import {
   FaInstagram,
   FaFacebook,
   FaGithub,
-  FaLinkedIn,
 } from "react-icons/fa";
 
 function App() {
