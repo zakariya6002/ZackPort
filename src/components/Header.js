@@ -37,12 +37,10 @@ function Header() {
             bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
             bgClip="text"
           >
-            Pawan Kumar
+            Zakariy Hassan
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
-            GDE - Flutter, Firebase. Founder of https://codepur.dev &
-            https://velocityx.dev. Building @frontierdotxyz, YouTuber &
-            Entrepreneur 🗣
+            lorem ipsum dolor sit amet, consectetur adipiscing 🗣
           </Text>
           <Button
             mt={8}
