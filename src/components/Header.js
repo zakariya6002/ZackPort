@@ -34,19 +34,16 @@ function Header() {
           <Text
             fontSize="7xl"
             fontWeight="bold"
-            bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
+            bgGradient="linear(to-r,blue.500, blue.600)"
             bgClip="text"
+            // marginRight={10}
           >
-            Zakariy Hassan
+            Zakariya Hassan
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
             lorem ipsum dolor sit amet, consectetur adipiscing 🗣
           </Text>
-          <Button
-            mt={8}
-            colorScheme="blue"
-            onClick={() => window.open("https://pawan.live")}
-          >
+          <Button mt={8} colorScheme="blue" onClick={() => window.open("#")}>
             Hire Me
           </Button>
         </Box>
@@ -55,10 +52,12 @@ function Header() {
           mt={isNotSmallerScreen ? "0" : "12"}
           mb={isNotSmallerScreen ? "0" : "12"}
           borderRadius="full"
+          npm
+          st
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="300px"
-          src="https://media-exp1.licdn.com/dms/image/D4D03AQF-5TyGGeNKqw/profile-displayphoto-shrink_400_400/0/1665132724504?e=1671062400&v=beta&t=jRhgMAXNCaUFHXu_ib8wKdCPHHh-BNoSmZ4k0th_6vc"
+          src="https://media-exp1.licdn.com/dms/image/D4D03AQHqyYvMttr7RA/profile-displayphoto-shrink_400_400/0/1665491051155?e=1671062400&v=beta&t=pqDUTsDwEZgQRaLFPG247yzRBK5GQAV1bhlI_kBchRo"
         />
       </Flex>
     </Stack>
