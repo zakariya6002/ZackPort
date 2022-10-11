@@ -42,11 +42,7 @@ function Header() {
           <Text color={isDark ? "gray.200" : "gray.500"}>
             lorem ipsum dolor sit amet, consectetur adipiscing 🗣
           </Text>
-          <Button
-            mt={8}
-            colorScheme="blue"
-            onClick={() => window.open("https://pawan.live")}
-          >
+          <Button mt={8} colorScheme="blue" onClick={() => window.open("#")}>
             Hire Me
           </Button>
         </Box>
