@@ -34,16 +34,19 @@ function Header() {
           <Text
             fontSize="7xl"
             fontWeight="bold"
-            bgGradient="linear(to-r,blue.500, blue.600)"
+            bgGradient="linear(to-r,blue.500, blue.500)"
             bgClip="text"
-            // marginRight={10}
           >
             Zakariya Hassan
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
             lorem ipsum dolor sit amet, consectetur adipiscing 🗣
           </Text>
-          <Button mt={8} colorScheme="blue" onClick={() => window.open("#")}>
+          <Button
+            mt={8}
+            colorScheme="blue"
+            onClick={() => window.open("https://pawan.live")}
+          >
             Hire Me
           </Button>
         </Box>
