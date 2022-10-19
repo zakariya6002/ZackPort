@@ -13,14 +13,14 @@ function Header() {
 
   return (
     <Stack>
-      <Circle
+      {/* <Circle
         position="absolute"
         bg="blue.100"
         opacity="0.1"
         w="300px"
         h="300px"
         alignSelf="flex-end"
-      />
+      /> */}
       <Flex
         direction={isNotSmallerScreen ? "row" : "column"}
         spacing="200px"
@@ -38,6 +38,7 @@ function Header() {
             bgClip="text"
           >
             Zakariya Hassan
+            <hr />
           </Text>
           <Text color={isDark ? "gray.200" : "gray.500"}>
             lorem ipsum dolor sit amet, consectetur adipiscing 🗣
@@ -48,6 +49,7 @@ function Header() {
         </Box>
         <Image
           alignSelf="center"
+          ml="10px"
           mt={isNotSmallerScreen ? "0" : "12"}
           mb={isNotSmallerScreen ? "0" : "12"}
           borderRadius="full"
@@ -55,8 +57,8 @@ function Header() {
           st
           backgroundColor="transparent"
           boxShadow="lg"
-          boxSize="300px"
-          src="https://media-exp1.licdn.com/dms/image/D4D03AQHqyYvMttr7RA/profile-displayphoto-shrink_400_400/0/1665491051155?e=1671062400&v=beta&t=pqDUTsDwEZgQRaLFPG247yzRBK5GQAV1bhlI_kBchRo"
+          boxSize="100px"
+          src="https://avatars.githubusercontent.com/u/79968201?s=200"
         />
       </Flex>
     </Stack>
