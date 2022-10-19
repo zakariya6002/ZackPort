@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "@chakra-ui/icon";
+// import Icon from "@chakra-ui/icon";
 import { HStack } from "@chakra-ui/layout";
 import { useMediaQuery } from "@chakra-ui/media-query";
 import { Image } from "@chakra-ui/image";
