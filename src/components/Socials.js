@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "@chakra-ui/icon";
 import { HStack } from "@chakra-ui/layout";
-import { useMediaQuery } from "@chakra-ui/media-query";
+// import { useMediaQuery } from "@chakra-ui/media-query";
 
 import { FaFacebookF, FaGoogle, FaShopify } from "react-icons/fa";
 
