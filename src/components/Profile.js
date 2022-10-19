@@ -15,7 +15,7 @@ function Profile() {
     >
       <Box alignSelf="center" px="32" py="16">
         <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
-          7+
+          1+
         </Heading>
         <Text fontSize="2xl" color="gray.400">
           Years of Experience
