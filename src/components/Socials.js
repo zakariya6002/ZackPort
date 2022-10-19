@@ -10,8 +10,8 @@ function Socials() {
   return (
     <HStack
       spacing="24"
-      direction={isNotSmallerScreen ? "column" : "row"}
-      // w="100%"
+      direction={isNotSmallerScreen ? "row" : "column"}
+      w="100%"
       maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
     >
       <Icon as={FaFacebookF} boxSize="50" />
