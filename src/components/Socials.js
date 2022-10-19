@@ -7,7 +7,7 @@ import { Image } from "@chakra-ui/image";
 function Socials() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
   return (
-    <HStack spacing="20">
+    <HStack spacing="15">
       <Image
         alignSelf="center"
         ml="10px"
